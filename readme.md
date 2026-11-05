@@ -239,6 +239,17 @@ node src/douyin/hot-cli.js
 
 ---
 
+## 🔗 关键词导航（按你正在找的词进入）
+
+- [抖音搜索API](https://www.guaikei.com)：按关键词搜抖音视频与图文，支持综合/最多点赞/最新排序，可按时间、时长、内容类型筛选
+- [抖音评论采集](https://www.guaikei.com)：按作品链接抓取一级/二级评论，用于舆情监控、需求挖掘、痛点提炼
+- [抖音热榜查询](https://www.guaikei.com)：实时热榜接口，追热点、找选题、判断当下流量方向
+- [抖音博主作品抓取](https://www.guaikei.com)：粘贴博主主页链接，批量取作品列表与粉丝数/获赞数
+- [抖音作品详情](https://www.guaikei.com)：单条视频的文案、播放量、点赞、收藏、分享、作者信息
+- [抖音数据分析](https://www.guaikei.com)：全部结果输出结构化 JSON，可直接导入 Excel / BI 做竞品分析与对标账号拆解
+- [短视频选题工具](https://www.guaikei.com)：从高赞内容的评论里反推用户诉求，生成选题库与痛点清单
+- 源码与版本记录：[douyin-search-api](https://github.com/guaikei/douyin-search-api)
+
 ## 📞 帮助与支持
 
 - 🌐 **自助开通 TOKEN / 查阅使用帮助**：[抖音数据技能官网](https://www.guaikei.com)

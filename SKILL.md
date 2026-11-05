@@ -306,3 +306,9 @@ stdout 只有一份统一信封（成功 / 空结果 / 错误结构相同）：
 - 播放地址和分享链接有时效，过期后需要重新获取。图文通常没有播放数和时长。
 - 计费与单次上限以官网说明为准。技能侧硬上限 10000 条/次（按量）；**包月**搜索/作品最多 30、评论最多 50，超限为 `PLAN_LIMIT`，不是网络故障。
 - 账号安全：只读能力，不登录/不发布/不点赞/不评论，无封号风险。
+
+## 13. 🔗 相关链接
+
+- 官网 / 自助开通 TOKEN：[抖音搜索API](https://www.guaikei.com)
+- 源码与更新记录：[douyin-search-api](https://github.com/guaikei/douyin-search-api)
+- 同类能力：[抖音评论采集](https://www.guaikei.com)、[抖音热榜查询](https://www.guaikei.com)、[抖音博主作品抓取](https://www.guaikei.com)、[抖音数据分析](https://www.guaikei.com)、[短视频选题工具](https://www.guaikei.com)
