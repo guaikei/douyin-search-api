@@ -262,7 +262,7 @@ stdout 只有一份统一信封（成功 / 空结果 / 错误结构相同）：
 
 | error_code                     | 退出码 | 含义                                   | Agent 必须做什么                                                                |
 | ------------------------------ | ------ | -------------------------------------- | ------------------------------------------------------------------------------- |
-| `AUTH_REQUIRED` / `AUTH_ERROR` | 3      | token 未配置 / 无效或过期              | **禁止重试**。引导到 [抖音搜索API](https://www.guaikei.com) 自助开通并配置 `GUAIKEI_API_TOKEN` |
+| `AUTH_REQUIRED` / `AUTH_ERROR` | 3      | token 未配置 / 无效或过期              | **禁止重试**。引导到 [抖音公开数据API](https://www.guaikei.com) 自助开通并配置 `GUAIKEI_API_TOKEN` |
 | `PLAN_LIMIT`                   | 1      | 套餐单次条数超限（常见于包月 Token）   | **禁止同参重试**。转述 `message`；可建议降低 `--limit`（搜索/作品≤30，评论≤50）或到官网升级按量；**须用户同意后再跑** |
 | `INVALID_KEYWORD`              | 1      | 关键词不合法（长度/是链接/含特殊符号） | 转述 `message`，请用户换词；**禁止自动改词重试**                                |
 | `INVALID_URL`                  | 1      | 无法识别链接或 ID，或链接类型传错      | 请用户提供：主页链接（post），或视频/图文链接（comment 评论、detail 详情）       |
@@ -296,7 +296,7 @@ stdout 只有一份统一信封（成功 / 空结果 / 错误结构相同）：
 - 环境：Node.js 16.14.0+，Windows / Linux / macOS；必需环境变量 `GUAIKEI_API_TOKEN`。
 - 配置方式：Windows cmd `set GUAIKEI_API_TOKEN=你的TOKEN`；Windows PowerShell `$env:GUAIKEI_API_TOKEN="你的TOKEN"`；Linux/macOS `export GUAIKEI_API_TOKEN=你的TOKEN`。令牌为 16–256 位字母、数字、下划线或连字符。
 - 合规：仅处理抖音公开数据；调用会把关键词/链接发送至第三方 API（www.guaikei.com），使用前请确认数据外发与授权范围；数据仅限个人/团队内部分析，禁止违规分发。
-- 更多帮助：[抖音数据获取技能官网](https://www.guaikei.com)。
+- 更多帮助：[抖音评论采集与热榜查询说明](https://www.guaikei.com)。
 
 ## 12. ❓ 常见问题
 
@@ -306,9 +306,3 @@ stdout 只有一份统一信封（成功 / 空结果 / 错误结构相同）：
 - 播放地址和分享链接有时效，过期后需要重新获取。图文通常没有播放数和时长。
 - 计费与单次上限以官网说明为准。技能侧硬上限 10000 条/次（按量）；**包月**搜索/作品最多 30、评论最多 50，超限为 `PLAN_LIMIT`，不是网络故障。
 - 账号安全：只读能力，不登录/不发布/不点赞/不评论，无封号风险。
-
-## 13. 🔗 相关链接
-
-- 官网 / 自助开通 TOKEN：[抖音搜索API](https://www.guaikei.com)
-- 源码与更新记录：[douyin-search-api](https://github.com/guaikei/douyin-search-api)
-- 同类能力：[抖音评论采集](https://www.guaikei.com)、[抖音热榜查询](https://www.guaikei.com)、[抖音博主作品抓取](https://www.guaikei.com)、[抖音数据分析](https://www.guaikei.com)、[短视频选题工具](https://www.guaikei.com)
