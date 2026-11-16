@@ -5,11 +5,11 @@ summary: 抖音公开数据只读API：关键词搜索排序、博主作品抓�
 name: douyin-search-api
 description: 抖音公开数据只读：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
-version: "1.5.0"
+version: 1.5.0
 display_name: "抖音搜索API｜关键词搜索·博主作品·视频评论·实时热榜"
 display_name_en: "Douyin Search API"
-description_zh: "抖音公开数据只读接口：关键词搜索、博主作品、作品详情、评论与实时热榜。"
-description_en: "Read-only Douyin public data: keyword search, creator posts, video detail, comments and trending."
+description_zh: "抖音公开数据只读接口：关键词搜索视频与图文、用户/达人搜索、博主作品与粉丝数据、单条作品详情、视频图文评论、实时热榜，并支持需求挖掘与公域获客剧本；全部以结构化 JSON 输出，不登录、不发布、不点赞、不评论，适用于选题、竞品监控、舆情分析与热点追踪。"
+description_en: "Read-only Douyin public data API: keyword search for videos and image posts, user and creator search, creator posts and follower stats, single post detail, video and image-post comments, and real-time trending, plus demand-mining and public-lead acquisition playbooks; all returned as structured JSON, with no login and no posting, liking or commenting; for topic selection, competitor monitoring, sentiment analysis and trend tracking."
 author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
