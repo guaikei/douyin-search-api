@@ -1,4 +1,4 @@
-# 抖音搜索API (Douyin Search API) 完整选项参数说明
+# 抖音关键词搜索 (Douyin Search & Analytics) 完整选项参数说明
 
 ## 🔎 抖音关键词搜索
 
