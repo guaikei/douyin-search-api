@@ -1,4 +1,4 @@
-﻿# 抖音关键词搜索 (Douyin Search & Analytics) 更新日志
+﻿# 抖音搜索API 更新日志
 
 ## 1.5.1
 - Windows cmd / PowerShell 双壳可复制示例写入 `SKILL.md`；硬规则「cmd 只用双引号」。
